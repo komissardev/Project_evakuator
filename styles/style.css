@@ -1,0 +1,88 @@
+/* global styles start*/
+@import url("./global_styles/reset.css");
+@import url("./global_styles/color.css");
+@import url("./global_styles/fonts.css");
+@import url("./global_styles/homePage_header.css");
+@import url("./global_styles/homePage_footer.css");
+/* global styles end*/
+
+/* page styles start*/
+@import url("./page_styles/sectionHome.css");
+@import url("./page_styles/sectionAboutUs.css");
+@import url("./page_styles/sectionAdvertising.css");
+@import url("./page_styles/sectionOurServices.css");
+@import url("./page_styles/sectionWhyUs.css");
+@import url("./page_styles/sectionGlobalInfo.css");
+@import url("./page_styles/sectionOurWorks.css");
+@import url("./page_styles/light-box-backdrop__sectionOurWorks.css");
+/* page styles end*/
+
+/* adaptive styles start*/
+@import url("./adaptive_styles/adaptive_font-size-page.css");
+@import url("./adaptive_styles/adaptive_header.css");
+@import url("./adaptive_styles/adaptive_footer.css");
+@import url("./adaptive_styles/adaptive_sectionHome.css");
+@import url("./adaptive_styles/adaptive_sectionAboutUs.css");
+@import url("./adaptive_styles/adaptive_sectionAdvertising.css");
+@import url("./adaptive_styles/adaptive_sectionOurServices.css");
+@import url("./adaptive_styles/adaptive_sectionWhyUs.css");
+@import url("./adaptive_styles/adaptive_sectionGlobalInfo.css");
+@import url("./adaptive_styles/adaptive_sectionOurWorks.css");
+@import url("./adaptive_styles/adaptive_light-box-backdrop__sectionOurWorks.css");
+/* adaptive styles end*/
+
+a {
+    color: var(--text-color-white);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    position: relative;
+}
+
+.bodyPage {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 1 auto;
+    margin-top: 69px;
+    background-color: var(--text-color-white);
+}
+
+.disable-scroll {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+._preloader {
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,160,153,1) 100%);
+    z-index: 10;
+}
+
+
+._preloader img{
+    position: absolute;
+    width: 5%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

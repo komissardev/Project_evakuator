@@ -1,0 +1,48 @@
+.sectionOurWorks {
+    position: relative;
+    margin-top: 60px;
+    background: var(--bg-color-gradient-white-sea-green);
+}
+
+.sectionOurWorks__headingContainer {
+    padding: 70px 0;
+}
+
+.sectionOurWorks h2 {
+    width: 77%;
+    margin-left: 23%;
+    padding: 20px 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: var(--text-color-sea-green);
+    background-color: var(--body-bg-color-white);
+}
+
+.sectionOurWorks__imgList {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 5% 5%;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.sectionOurWorks__imgList__item {
+    position: relative;
+    width: 23%;
+    margin: auto;
+    padding: 0 0 26% 0;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.sectionOurWorks__imgList__item img {
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}

@@ -1,0 +1,62 @@
+@media screen and (max-width: 912px) and (max-height: 1368px){
+    .sectionAboutUs {
+        min-height: 60vh;
+    }
+}
+
+@media screen and (max-width: 820px) and (max-height: 1180px){
+    .sectionAboutUs__container__cont {
+        width: 65%;
+    }
+
+    .sectionAboutUs__pictures {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 768px) and (max-height: 1024px){
+    .sectionAboutUs__container__cont {
+        width: 60%;
+    }
+
+    .sectionAboutUs__pictures {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .sectionAboutUs__container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sectionAboutUs__container__cont {
+        width: 100%;
+    }
+
+    .sectionAboutUs__pictures {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: calc(100vh * 1.4);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .unHidingBtn {
+        display: block;
+    }
+
+    ._unhiddenText {
+        display: none;
+    }
+
+    ._hiddenText {
+        display: none;
+    }
+    
+    ._visibleText {
+        display: block;
+    }
+}

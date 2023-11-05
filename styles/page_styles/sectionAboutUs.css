@@ -1,0 +1,78 @@
+.sectionAboutUs {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    min-height: 100vh;
+    padding: 5% 0;
+}
+
+.sectionAboutUs__container {
+    position: relative;
+    display: flex;
+    width: 90%;
+}
+
+.sectionAboutUs__container__cont {
+    width: 70%;
+    background-color: var(--bg-color-sea-green);
+}
+
+.sectionAboutUs__container h2,
+.sectionAboutUs__container p {
+    padding-left: 5%;
+}
+
+.sectionAboutUs__container h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 4.5rem;
+    padding: 5% 0 4% 5%;
+    color: var(--text-color-white);
+}
+
+.sectionAboutUs__container p {
+    display: block;
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+    padding-right: 8%;
+    color: var(--text-color-white);
+}
+
+.sectionAboutUs__container p:not(:last-of-type) {
+    padding-bottom: 4%;
+}
+
+.sectionAboutUs__container p:last-of-type {
+    padding-bottom: 5%;
+}
+
+.sectionAboutUs__container p > span {
+    font-weight: 600;
+}
+
+.sectionAboutUs__pictures {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    background-image: url("../../assets/image2.png");
+}
+
+._unhiddenText {
+    display: block;
+}
+
+.hidingBtn,
+.unHidingBtn {
+    display: none;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    font-weight: 700;
+    font-size: 1.8rem;
+    background-color: inherit;
+    color: var(--text-color-white);
+    border-bottom: 1px solid var(--text-color-white);
+}

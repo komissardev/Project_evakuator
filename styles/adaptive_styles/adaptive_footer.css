@@ -1,0 +1,45 @@
+@media screen and (max-width: 1200px) {
+    .footerInfoList__item:last-child {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footerPage {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerInfoList {
+        align-items: center;
+        width: 90%;
+    }
+
+    .footerInfoList__item:last-child {
+        text-align: center;
+    }
+
+    .footerContactsList {
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+
+    .footerSocialList {
+        flex-direction: row;
+        align-items: center;
+        width: 40%;
+    }
+
+    .socialMediaList__svg {
+        margin-bottom: unset;
+        width: 50px;
+        height: 50px;
+    }
+
+    .socialMediaList__svg {
+        margin: 10px;
+    }
+}

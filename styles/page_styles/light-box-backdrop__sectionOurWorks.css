@@ -1,0 +1,120 @@
+.light-box-backdrop__sectionOurWorks {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 1% 0;
+    z-index: 6;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.light-box-backdrop__active{
+    display: flex;
+}
+
+.light-box-backdrop__sectionOurWorks__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 1% 0;
+    margin: auto;
+    overflow: hidden;
+    width: 88%;
+    height: 100%;
+}
+
+.light-box-backdrop__sectionOurWorks__btn-left,
+.light-box-backdrop__sectionOurWorks__btn-right {
+    display: flex;
+    position: absolute;
+    width: 5%;
+    height: 94%;
+    top: 6%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 7;
+    background-size: 65% 65%;
+    background-color: rgba(0, 0, 0, 0.95);
+    background-image: url("../../assets/icons/arrow.svg");
+}
+
+.light-box-backdrop__sectionOurWorks__btn-close {
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    right: 0;
+    top: 1%;
+    background-color: rgba(0, 0, 0, 0.95);
+    background-position: center;
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
+        z-index: 7;
+    background-image: url("../../assets/icons/cross.svg");
+}
+
+.light-box-backdrop__sectionOurWorks__btn-left {
+    left: 0;
+    background-position: 50% 25%;
+}
+
+.light-box-backdrop__sectionOurWorks__btn-right {
+    right: 0;
+    background-position: 50% 75%;
+    transform: rotate(180deg);
+}
+
+.light-box-backdrop__sectionOurWorks__imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+
+.light-box-backdrop__sectionOurWorks__img {
+    height: 95%;
+}
+
+.light-box-backdrop__sectionOurWorks__listContainer {
+    display: flex;
+    height: 20%;
+}
+
+.light-box-backdrop__sectionOurWorks__list {
+    display: flex;
+    margin: auto;
+    padding:  0 1vh;
+    overflow-x: auto;
+    height: 80%;
+    width: 73%;
+}
+
+.light-box-backdrop__sectionOurWorks__list::-webkit-scrollbar {
+    height: .5vh;
+}
+
+.light-box-backdrop__sectionOurWorks__list::-webkit-scrollbar-thumb {
+    background-color: rgb(61, 61, 61);
+    border-radius: 10px;
+}
+
+.light-box-backdrop__sectionOurWorks__list__item img {
+    height: 90%;
+    max-height: 13vh;
+    min-width: 7vw;
+}
+
+.light-box-backdrop__sectionOurWorks__list__item:not(:last-of-type) img {
+    margin-right: 10px;
+}
+
+.selectedElementImg{
+    filter: opacity(25%);
+}
+
+._displayNone {
+    display: none;
+}
