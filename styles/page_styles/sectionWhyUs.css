@@ -1,0 +1,52 @@
+.sectionWhyUs {
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    padding: 5% 0 2%;
+    background-color: var(--bg-color-sea-green);
+}
+
+.sectionWhyUs__container {
+    width: 50%;
+}
+
+.sectionWhyUs__container h2 {
+    margin-left: 10%;
+    margin-bottom: 40px;
+    font-size: 4.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--text-color-white);
+}
+
+.sectionWhyUs__list {
+    margin: auto 0 auto 10%;
+}
+
+.sectionWhyUs__list__item {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--body-bg-color-white);
+}
+
+.sectionWhyUs__list__item h4 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 3.8rem;
+    color: var(--text-color-sea-green);
+}
+
+.sectionWhyUs__list__item p {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: var(--text-color-black);
+}
+
+.sectionWhyUs__img {
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+    width: 60%;
+}
